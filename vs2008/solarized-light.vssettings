@@ -8,7 +8,7 @@
 			<PropertyValue name="Version">2</PropertyValue>
 			<FontsAndColors Version="2.0">
 				<Categories>
-					<Category GUID="{A27B4E24-A735-4D1D-B8E7-9716E1E3D8E0}" FontName="Consolas" FontSize="12" CharSet="0" FontIsDefault="No">
+					<Category GUID="{A27B4E24-A735-4D1D-B8E7-9716E1E3D8E0}" FontIsDefault="Yes">
 						<Items>
 							<Item Name="Plain Text" Foreground="0x00756E58" Background="0x00E3F6FD" BoldFont="Yes"/>
 							<Item Name="Selected Text" Foreground="0x00969483" Background="0x00423607" BoldFont="No"/>
