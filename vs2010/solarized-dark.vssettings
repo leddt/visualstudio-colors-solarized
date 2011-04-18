@@ -137,7 +137,7 @@
 							<Item Name="ReSharper LiveTemplates Inactive HotSpot" Foreground="0x00756E58" Background="0x02000000" BoldFont="No"/>
 							<Item Name="ReSharper Local Variable Identifier" Foreground="0x00969483" Background="0x02000000" BoldFont="No"/>
 							<Item Name="ReSharper Matched Brace" Foreground="0x00756E58" Background="0x00756E58" BoldFont="No"/>
-							<Item Name="ReSharper Method Identifier" Foreground="0x00A1A193" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper Method Identifier" Foreground="0x00969483" Background="0x02000000" BoldFont="Yes"/>
 							<Item Name="ReSharper Mutable Local Variable Identifier" Foreground="0x00969483" Background="0x02000000" BoldFont="Yes"/>
 							<Item Name="ReSharper Namespace Identifier" Foreground="0x00969483" Background="0x02000000" BoldFont="No"/>
 							<Item Name="ReSharper Navigation Highlight" Foreground="0x00D28B26" Background="0x00D28B26" BoldFont="No"/>
