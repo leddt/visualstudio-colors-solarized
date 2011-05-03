@@ -108,10 +108,10 @@
 							<Item Name="Refactoring Current Field" Foreground="0x01000000" Background="0x00D5E8EE" BoldFont="No"/>
 							<Item Name="Refactoring Dependent Field" Foreground="0x00D5E8EE" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Register Data Changed" Foreground="0x002F32DC" Background="0x02000000" BoldFont="No"/>
-							<Item Name="ReSharper ASP.NET MVC Action" Foreground="0x001648CB" Background="0x02000000" BoldFont="No"/>
-							<Item Name="ReSharper ASP.NET MVC Area" Foreground="0x001648CB" Background="0x02000000" BoldFont="No"/>
-							<Item Name="ReSharper ASP.NET MVC Controller" Foreground="0x001648CB" Background="0x02000000" BoldFont="No"/>
-							<Item Name="ReSharper ASP.NET MVC View" Foreground="0x001648CB" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper ASP.NET MVC Action" Foreground="0x00D28B26" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper ASP.NET MVC Area" Foreground="0x00D28B26" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper ASP.NET MVC Controller" Foreground="0x00D28B26" Background="0x02000000" BoldFont="No"/>
+							<Item Name="ReSharper ASP.NET MVC View" Foreground="0x0098A12A" Background="0x02000000" BoldFont="No"/>
 							<Item Name="ReSharper ASP.NET RunAt attribute" Foreground="0x001648CB" Background="0x02000000" BoldFont="No"/>
 							<Item Name="ReSharper Brace Outline" Foreground="0x00423607" Background="0x02000000" BoldFont="No"/>
 							<Item Name="ReSharper Class Identifier" Foreground="0x00D28B26" Background="0x02000000" BoldFont="No"/>
