@@ -44,6 +44,8 @@
 							<Item Name="CSS Property Value" Foreground="0x0098A12A" Background="0x02000000" BoldFont="No"/>
 							<Item Name="CSS Selector" Foreground="0x00009985" Background="0x02000000" BoldFont="No"/>
 							<Item Name="CSS String Value" Foreground="0x0098A12A" Background="0x02000000" BoldFont="No"/>
+							<Item Name="CurrentLineActiveFormat" Foreground="0x00D5E8EE" Background="0x00D5E8EE" BoldFont="No"/>
+							<Item Name="CurrentLineInactiveFormat" Foreground="0x00D5E8EE" Background="0x00D5E8EE" BoldFont="No"/>
 							<Item Name="Current list location" Foreground="0x00D5E8EE" Background="0x00D28B26" BoldFont="No"/>
 							<Item Name="Definition Window Current Match" Foreground="0x00837B65" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Disassembly Symbol" Foreground="0x00C4716C" Background="0x02000000" BoldFont="No"/>
