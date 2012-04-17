@@ -15,7 +15,7 @@
 							<Item Name="Inactive Selected Text" Foreground="0x00837B65" Background="0x00D5E8EE" BoldFont="No"/>
 							<Item Name="Indicator Margin" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Line Numbers" Foreground="0x00A1A193" Background="0x00D5E8EE" BoldFont="No"/>
-							<Item Name="Visible White Space" Foreground="0x00D5E8EE" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Visible Whitespace" Foreground="0x00D5E8EE" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Bookmark" Foreground="0x0100000B" Background="0x00423607" BoldFont="No"/>
 							<Item Name="Brace Matching (Rectangle)" Foreground="0x02000000" Background="0x00A1A193" BoldFont="No"/>
 							<Item Name="Breakpoint (Disabled)" Foreground="0x002F32DC" Background="0x02000000" BoldFont="No"/>
