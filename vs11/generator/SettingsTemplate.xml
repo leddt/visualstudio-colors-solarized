@@ -14,9 +14,9 @@
               <Item Name="Selected Text" Foreground="$PrimaryContent" Background="$SecondaryContent" BoldFont="No"/>
               <Item Name="Inactive Selected Text" Foreground="$PrimaryContent" Background="$SecondaryContent" BoldFont="No"/>
               <Item Name="Indicator Margin" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
-              <Item Name="Line Numbers" Foreground="$SecondaryContent" Background="$BackgroundHighlight" BoldFont="No"/>
-              <Item Name="Visible Whitespace" Foreground="$BackgroundHighlight" Background="0x02000000" BoldFont="No"/>
-              <Item Name="Bookmark" Foreground="$BackgroundHighlight" Background="$Highlight1" BoldFont="No"/>
+              <Item Name="Line Numbers" Foreground="$SecondaryContent" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="Visible Whitespace" Foreground="$BgHighlight" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Bookmark" Foreground="$BgHighlight" Background="$Highlight1" BoldFont="No"/>
               <Item Name="Brace Matching (Rectangle)" Foreground="0x02000000" Background="$Highlight1" BoldFont="No"/>
               <Item Name="Breakpoint (Disabled)" Foreground="$Red" Background="0x02000000" BoldFont="No"/>
               <Item Name="Breakpoint (Enabled)" Foreground="$Highlight2" Background="$Red" BoldFont="No"/>
@@ -32,10 +32,10 @@
               <Item Name="Breakpoint - Mapped (Warning)" Foreground="$Highlight2" Background="$Red" BoldFont="No"/>
               <Item Name="Breakpoint - Selected" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
               <Item Name="Call Return" Foreground="$Background" Background="$Cyan" BoldFont="No"/>
-              <Item Name="Call Return New Context" Foreground="$BackgroundHighlight" Background="$Cyan" BoldFont="No"/>
+              <Item Name="Call Return New Context" Foreground="$BgHighlight" Background="$Cyan" BoldFont="No"/>
               <Item Name="Code Snippet Dependent Field" Foreground="$Highlight1" Background="0x02000000" BoldFont="No"/>
               <Item Name="Code Snippet Field" Foreground="0x01000000" Background="$Highlight1" BoldFont="No"/>
-              <Item Name="Collapsible Text" Foreground="$SecondaryContent" Background="$BackgroundHighlight" BoldFont="No"/>
+              <Item Name="Collapsible Text" Foreground="$SecondaryContent" Background="$BgHighlight" BoldFont="No"/>
               <Item Name="Comment" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="Compiler Error" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
               <Item Name="CSS Comment" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
@@ -47,16 +47,19 @@
               <Item Name="Current list location" Foreground="$Highlight1" Background="$Blue" BoldFont="No"/>
               <Item Name="Definition Window Current Match" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="Disassembly Symbol" Foreground="$Violet" Background="0x02000000" BoldFont="No"/>
-              <Item Name="Excluded Code" Foreground="$SecondaryContent" Background="$BackgroundHighlight" BoldFont="No"/>
-              <Item Name="MarkerFormatDefinition/HighlightedReference" Foreground="$MiddleGray" Background="$Highlight2" BoldFont="No"/>
+              <Item Name="Excluded Code" Foreground="$SecondaryContent" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="MarkerFormatDefinition/HighlightedReference" Foreground="$SecondaryContent" Background="$BgHighlight" BoldFont="No"/>
+							<Item Name="MarkerFormatDefinition/FindHighlight" Foreground="$SecondaryContent" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="CurrentLineActiveFormat" Foreground="$BgHighlight" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="CurrentLineInactiveFormat" Foreground="$BgHighlight" Background="$BgHighlight" BoldFont="No"/>
               <Item Name="HTML Attribute" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="HTML Attribute Value" Foreground="$Cyan" Background="0x02000000" BoldFont="No"/>
               <Item Name="HTML Comment" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="HTML Element Name" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
               <Item Name="HTML Entity" Foreground="$Red" Background="0x02000000" BoldFont="No"/>
               <Item Name="HTML Operator" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
-              <Item Name="HTML Server-Side Script" Foreground="$Magenta" Background="$BackgroundHighlight" BoldFont="No"/>
-              <Item Name="HTML Tag Delimiter" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="HTML Server-Side Script" Foreground="$Magenta" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="HTML Tag Delimiter" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="Identifier" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="Keyword" Foreground="$Green" Background="0x02000000" BoldFont="No"/>
               <Item Name="Memory Changed" Foreground="$Red" Background="0x02000000" BoldFont="No"/>
@@ -64,7 +67,7 @@
               <Item Name="Operator" Foreground="$Magenta" Background="0x02000000" BoldFont="No"/>
               <Item Name="Other Error" Foreground="$Magenta" Background="0x02000000" BoldFont="No"/>
               <Item Name="Preprocessor Keyword" Foreground="$Orange" Background="0x02000000" BoldFont="No"/>
-              <Item Name="Razor Code" Foreground="0x02000000" Background="$BackgroundHighlight" BoldFont="No"/>
+              <Item Name="Razor Code" Foreground="0x02000000" Background="$BgHighlight" BoldFont="No"/>
               <Item Name="Refactoring Background" Foreground="0x01000002" Background="$Highlight2" BoldFont="No"/>
               <Item Name="Refactoring Current Field" Foreground="0x01000000" Background="$Highlight1" BoldFont="No"/>
               <Item Name="Refactoring Dependent Field" Foreground="$Highlight1" Background="0x02000000" BoldFont="No"/>
@@ -72,7 +75,7 @@
               <Item Name="Script Comment" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="Script Keyword" Foreground="$Green" Background="0x02000000" BoldFont="No"/>
               <Item Name="Script Number" Foreground="$Cyan" Background="0x02000000" BoldFont="No"/>
-              <Item Name="Script Operator" Foreground="$Magenta" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Script Operator" Foreground="$Green" Background="0x02000000" BoldFont="No"/>
               <Item Name="Script String" Foreground="$Cyan" Background="0x02000000" BoldFont="No"/>
               <Item Name="Smart Tag" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
               <Item Name="SQL DML Marker" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
@@ -85,15 +88,15 @@
               <Item Name="Track Changes before save" Foreground="0x02000000" Background="$Yellow" BoldFont="No"/>
               <Item Name="User Types" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="User Types(Delegates)" Foreground="$Violet" Background="0x02000000" BoldFont="Yes"/>
-              <Item Name="User Types(Enums)" Foreground="$Violet" Background="0x02000000" BoldFont="Yes"/>
-              <Item Name="User Types(Interfaces)" Foreground="$Magenta" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="User Types(Enums)" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="User Types(Interfaces)" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="User Types(Value types)" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="Warning" Foreground="$Green" Background="0x02000000" BoldFont="No"/>
-              <Item Name="Warning Lines Path" Foreground="$Blue" Background="$BackgroundHighlight" BoldFont="No"/>
+              <Item Name="Warning Lines Path" Foreground="$Blue" Background="$BgHighlight" BoldFont="No"/>
               <Item Name="XAML Attribute" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="XAML Attribute Quotes" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="XAML Attribute Value" Foreground="$Cyan" Background="0x02000000" BoldFont="No"/>
-              <Item Name="XAML CData Section" Foreground="$PrimaryContent" Background="$BackgroundHighlight" BoldFont="No"/>
+              <Item Name="XAML CData Section" Foreground="$PrimaryContent" Background="$BgHighlight" BoldFont="No"/>
               <Item Name="XAML Comment" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="XAML Delimiter" Foreground="$Magenta" Background="0x02000000" BoldFont="No"/>
               <Item Name="XAML Keyword" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
@@ -106,17 +109,18 @@
               <Item Name="XML Attribute" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="XML Attribute Quotes" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="XML Attribute Value" Foreground="$Cyan" Background="0x02000000" BoldFont="No"/>
-              <Item Name="XML CData Section" Foreground="$PrimaryContent" Background="$BackgroundHighlight" BoldFont="No"/>
+              <Item Name="XML CData Section" Foreground="$PrimaryContent" Background="$BgHighlight" BoldFont="No"/>
               <Item Name="XML Comment" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="XML Delimiter" Foreground="$Magenta" Background="0x02000000" BoldFont="No"/>
-              <Item Name="XML Doc Attribute" Foreground="$SecondaryContent" Background="$BackgroundHighlight" BoldFont="No"/>
-              <Item Name="XML Doc Comment" Foreground="$SecondaryContent" Background="$BackgroundHighlight" BoldFont="Yes"/>
-              <Item Name="XML Doc Tag" Foreground="$SecondaryContent" Background="$BackgroundHighlight" BoldFont="No"/>
+              <Item Name="XML Doc Attribute" Foreground="$SecondaryContent" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="XML Doc Comment" Foreground="$SecondaryContent" Background="$BgHighlight" BoldFont="Yes"/>
+              <Item Name="XML Doc Tag" Foreground="$SecondaryContent" Background="$BgHighlight" BoldFont="No"/>
               <Item Name="XML Keyword" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
               <Item Name="XML Name" Foreground="$Blue" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="XML Processing Instruction" Foreground="$Orange" Background="0x02000000" BoldFont="No"/>
               <Item Name="XML Text" Foreground="$Orange" Background="0x02000000" BoldFont="No"/>
               <Item Name="XSLT Keyword" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
+							<Item Name="vsvim_commandmargin" Foreground="$Background" Background="$PrimaryContent" BoldFont="No"/>
             </Items>
           </Category>
         </Categories>
