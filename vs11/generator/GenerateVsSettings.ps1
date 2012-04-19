@@ -1,12 +1,14 @@
+param ($type = "dark")
+
 $solarizedColorsDark = @{
-	'$Base03' = '0x00362B00';
-	'$Base02' = '0x00423607';
-	'$Base01' = '0x00586E75';
-	'$Base00' = '0x00837B65';
-	'$Base0' = '0x00969483';
-	'$Base1' = '0x00A1A193';
-	'$Base2' = '0x00D5E8EE';
-	'$Base3' = '0x00E3F6FD';
+	'$Background' = '0x00362B00'; # Base03
+	'$BackgroundHighlight' = '0x00423607'; # Base02
+	'$SecondaryContent' = '0x00586E75'; # Base01
+	'$MiddleGray' = '0x00837B65'; # Base00
+	'$PrimaryContent' = '0x00969483'; # Base0
+	'$EmphasizedContent' = '0x00A1A193'; #Base1
+	'$Highlight1' = '0x00D5E8EE'; # Base2
+	'$Highlight2' = '0x00E3F6FD'; #Base 3
 	'$Yellow' = '0x000089B5';
 	'$Orange' = '0x00164BCB';
 	'$Red' = '0x002F32DC';
@@ -17,16 +19,15 @@ $solarizedColorsDark = @{
 	'$Green' = '0x00079A71';
 }
 
-# Light is the same as dark with the base values inverted
 $solarizedColorsLight = @{
-	'$Base3' = '0x00362B00';
-	'$Base2' = '0x00423607';
-	'$Base1' = '0x00586E75';
-	'$Base0' = '0x00837B65';
-	'$Base00' = '0x00969483';
-	'$Base01' = '0x00A1A193';
-	'$Base02' = '0x00D5E8EE';
-	'$Base03' = '0x00E3F6Fd';
+	'$Background' = '0x00E3F6FD'; # Base3
+	'$BackgroundHighlight' = '0x00D5E8EE'; # Base2
+	'$SecondaryContent' = '0x00A1A193'; # Base1
+	'$MiddleGray' = '0x00969483'; # Base0
+	'$PrimaryContent' = '0x00837B65'; # Base00
+	'$EmphasizedContent' = '0x00586E75'; # Base01
+	'$Highlight1' = '0x00423607'; # Base02
+	'$Hightlight2' = '0x00362B00'; # Base03
 	'$Yellow' = '0x000089b5';
 	'$Orange' = '0x00164BCB';
 	'$Red' = '0x002F32DC';
@@ -37,8 +38,14 @@ $solarizedColorsLight = @{
 	'$Green' = '0x00079A71';
 }
 
+if ($type -eq "dark") {
+	$hash = $solarizedColorsDark
+} else {
+	$hash = $solarizedColorsLight
+}
+
+# -delimiter "blah" is a way to force PowerShell to load it all as one string
 $content = get-content -delimiter "nosuchthing" SettingsTemplate.xml
-$hash = $solarizedColorsDark
 
 $hash.Keys | % {
 	$content = $content.Replace($_, $hash[$_])
