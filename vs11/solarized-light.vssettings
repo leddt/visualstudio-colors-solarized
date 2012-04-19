@@ -120,7 +120,7 @@
               <Item Name="XML Processing Instruction" Foreground="0x00164BCB" Background="0x02000000" BoldFont="No"/>
               <Item Name="XML Text" Foreground="0x00164BCB" Background="0x02000000" BoldFont="No"/>
               <Item Name="XSLT Keyword" Foreground="0x00D28B26" Background="0x02000000" BoldFont="No"/>
-							<Item Name="vsvim_commandmargin" Foreground="0x00E3F6FD" Background="0x00837B65" BoldFont="No"/>
+							<Item Name="vsvim_commandmargin" Foreground="0x00837B65" Background="0x00E3F6FD" BoldFont="No"/>
             </Items>
           </Category>
         </Categories>
