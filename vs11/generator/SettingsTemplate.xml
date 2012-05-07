@@ -123,6 +123,14 @@
 							<Item Name="vsvim_commandmargin" Foreground="$PrimaryContent" Background="$Background" BoldFont="No"/>
             </Items>
           </Category>
+					<!-- NuGet Package Manager Console -->
+					<Category GUID="{F9D6BCE6-C669-41DB-8EE7-DD953828685B}" FontIsDefault="Yes">
+						<Items>
+							<Item Name="Plain Text" Foreground="$PrimaryContent" Background="$Background" BoldFont="No"/>
+              <Item Name="Selected Text" Foreground="$PrimaryContent" Background="$SecondaryContent" BoldFont="No"/>
+              <Item Name="Inactive Selected Text" Foreground="$PrimaryContent" Background="$SecondaryContent" BoldFont="No"/>
+						</Items>
+					</Category>
         </Categories>
       </FontsAndColors>
     </Category>
