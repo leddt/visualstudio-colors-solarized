@@ -3,7 +3,6 @@
 	<ToolsOptions>
 		<ToolsOptionsCategory name="Environment" RegisteredName="Environment"/>
 	</ToolsOptions>
-	<Category name="Database Tools" RegisteredName="Database Tools"/>
 	<Category name="Environment_Group" RegisteredName="Environment_Group">
 		<Category name="Environment_FontsAndColors" Category="{1EDA5DD4-927A-43a7-810E-7FD247D0DA1D}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_FontsAndColors" PackageName="Visual Studio Environment Package">
 			<PropertyValue name="Version">2</PropertyValue>
@@ -86,7 +85,7 @@
 							<Item Name="Error" Foreground="0x002F32DC" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Error Message" Foreground="0x002F32DC" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Excluded Code" Foreground="0x00756E58" Background="0x00423607" BoldFont="No"/>
-							<Item Name="MarkerFormatDefinition/HighlightedReference" Foreground="0x00756E58" Background="0x00756E58" BoldFont="No"/>
+							<Item Name="MarkerFormatDefinition/HighlightedReference" Foreground="0x00837B65" Background="0x00E3F6FD" BoldFont="No"/>
 							<Item Name="HTML Attribute" Foreground="0x00969483" Background="0x02000000" BoldFont="No"/>
 							<Item Name="HTML Attribute Value" Foreground="0x0098A12A" Background="0x02000000" BoldFont="No"/>
 							<Item Name="HTML Comment" Foreground="0x00756E58" Background="0x02000000" BoldFont="No"/>
@@ -157,9 +156,9 @@
 							<Item Name="ReSharper Unmatched Brace" Foreground="0x00A1A193" Background="0x002F32DC" BoldFont="No"/>
 							<Item Name="ReSharper Warning" Foreground="0x000089B5" Background="0x000089B5" BoldFont="No"/>
 							<Item Name="ReSharper Write Usage" Foreground="0x000089B5" Background="0x000089B5" BoldFont="No"/>
-							<Item Name="Script Comment" Foreground="0x00009985" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Script Comment" Foreground="0x00756E58" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Script Keyword" Foreground="0x00009985" Background="0x02000000" BoldFont="No"/>
-							<Item Name="Script Number" Foreground="0x00009985" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Script Number" Foreground="0x0098A12A" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Script Operator" Foreground="0x008236D3" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Script String" Foreground="0x0098A12A" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Smart Tag" Foreground="0x00D28B26" Background="0x02000000" BoldFont="No"/>
