@@ -165,19 +165,20 @@
               <Item Name="ReSharper Hyperlink" Foreground="$Blue" Background="0x01000001" BoldFont="No"/>
 <!--              <Item Name="ReSharper Name or Signature Changed" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
               <Item Name="ReSharper Constant Identifier" Foreground="$Magenta" Background="0x01000001" BoldFont="Yes"/>
-<!--              <Item Name="ReSharper Event Identifier" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
-<!--              <Item Name="ReSharper Field Identifier" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
-<!--              <Item Name="ReSharper Local Variable Identifier" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
-<!--              <Item Name="ReSharper Mutable Local Variable Identifier" Foreground="0x02000000" Background="0x01000001" BoldFont="Yes"/>-->
-<!--              <Item Name="ReSharper Method Identifier" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
-<!--              <Item Name="ReSharper Extension Method Identifier" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
+              <Item Name="ReSharper Event Identifier" Foreground="$Violet" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Field Identifier" Foreground="$PrimaryContent" Background="0x01000001" BoldFont="Yes"/>
+              <Item Name="ReSharper Local Variable Identifier" Foreground="$PrimaryContent" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Mutable Local Variable Identifier" Foreground="$EmphasizedContent" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Method Identifier" Foreground="$EmphasizedContent" Background="0x01000001" BoldFont="Bold"/>
+              <Item Name="ReSharper Extension Method Identifier" Foreground="$Cyan" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Operator Identifier" Foreground="$Cyan" Background="0x01000001" BoldFont="No"/>
-<!--              <Item Name="ReSharper Namespace Identifier" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
-<!--              <Item Name="ReSharper Parameter Identifier" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
-<!--              <Item Name="ReSharper Late Bound Identifier" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
+              <Item Name="ReSharper Namespace Identifier" Foreground="$MiddleGray" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Parameter Identifier" Foreground="0x02000000" Background="0x01000001" BoldFont="Yes"/>
+              <Item Name="ReSharper Late Bound Identifier" Foreground="$Cyan" Background="0x01000001" BoldFont="No"/>
 <!--              <Item Name="ReSharper Path Identifier" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
               <Item Name="ReSharper Format String Item" Foreground="$Green" Background="0x01000001" BoldFont="No"/>
-<!--              <Item Name="ReSharper Matched Format String Item" Foreground="0x02000000" Background="0x00B3DEF5" BoldFont="No"/>-->
+			  <!-- This color is used to highlight the variable/format string pair when the cursor is on one of them. -->
+              <Item Name="ReSharper Matched Format String Item" Foreground="0x02000000" Background="$BgHighlight" BoldFont="Yes"/>
 <!--              <Item Name="ReSharper LiveTemplates Current HotSpot" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
 <!--              <Item Name="ReSharper LiveTemplates Current HotSpot mirror" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
 <!--              <Item Name="ReSharper LiveTemplates Inactive HotSpot" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
@@ -192,12 +193,12 @@
               <Item Name="ReSharper Template Editor CSS Keyword" Foreground="$Orange" Background="0x01000001" BoldFont="No"/>
 <!--              <Item Name="ReSharper Completion Replacement Range" Foreground="0x02000000" Background="0x00E1E4FF" BoldFont="No"/>-->
               <Item Name="ReSharper Class Identifier" Foreground="$Yellow" Background="0x01000001" BoldFont="No"/>
-              <Item Name="ReSharper Static Class Identifier" Foreground="$Yellow" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Static Class Identifier" Foreground="$Yellow" Background="0x01000001" BoldFont="Yes"/>
               <Item Name="ReSharper Struct Identifier" Foreground="$Yellow" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Enum Identifier" Foreground="$Yellow" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Interface Identifier" Foreground="$Yellow" Background="0x01000001" BoldFont="No"/>
-              <Item Name="ReSharper Delegate Identifier" Foreground="$Yellow" Background="0x01000001" BoldFont="No"/>
-              <Item Name="ReSharper Type Parameter Identifier" Foreground="$Yellow" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Delegate Identifier" Foreground="$Violet" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Type Parameter Identifier" Foreground="$Magenta" Background="0x01000001" BoldFont="No"/>
 <!--              <Item Name="ReSharper Current Line Highlight" Foreground="0x02000000" Background="0x00E0FFFF" BoldFont="No"/>-->
             </Items>
           </Category>
