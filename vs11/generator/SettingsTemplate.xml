@@ -64,7 +64,7 @@
               <Item Name="Keyword" Foreground="$Green" Background="0x02000000" BoldFont="No"/>
               <Item Name="Memory Changed" Foreground="$Red" Background="0x02000000" BoldFont="No"/>
               <Item Name="Number" Foreground="$Cyan" Background="0x02000000" BoldFont="No"/>
-              <Item Name="Operator" Foreground="$Magenta" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Operator" Foreground="$Green" Background="0x02000000" BoldFont="No"/>
               <Item Name="Other Error" Foreground="$Magenta" Background="0x02000000" BoldFont="No"/>
               <Item Name="Preprocessor Keyword" Foreground="$Orange" Background="0x02000000" BoldFont="No"/>
               <Item Name="Razor Code" Foreground="0x02000000" Background="$BgHighlight" BoldFont="No"/>

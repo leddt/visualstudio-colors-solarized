@@ -64,7 +64,7 @@
               <Item Name="Keyword" Foreground="0x00079A71" Background="0x02000000" BoldFont="No"/>
               <Item Name="Memory Changed" Foreground="0x002F32DC" Background="0x02000000" BoldFont="No"/>
               <Item Name="Number" Foreground="0x0098A12A" Background="0x02000000" BoldFont="No"/>
-              <Item Name="Operator" Foreground="0x008236D3" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Operator" Foreground="0x00079A71" Background="0x02000000" BoldFont="No"/>
               <Item Name="Other Error" Foreground="0x008236D3" Background="0x02000000" BoldFont="No"/>
               <Item Name="Preprocessor Keyword" Foreground="0x00164BCB" Background="0x02000000" BoldFont="No"/>
               <Item Name="Razor Code" Foreground="0x02000000" Background="0x00423607" BoldFont="No"/>
