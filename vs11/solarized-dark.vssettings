@@ -126,6 +126,7 @@
               <Item Name="ReSharper Underlined Error Highlighting" Foreground="0x002F32DC" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Warning" Foreground="0x00D28B26" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Dead Code" Foreground="0x00756E58" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Suggestion" Foreground="0x00079A71" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Non-Private Unused Members" Foreground="0x00756E58" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Hint" Foreground="0x00079A71" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Todo Item" Foreground="0x00C4716C" Background="0x01000001" BoldFont="Yes"/>
