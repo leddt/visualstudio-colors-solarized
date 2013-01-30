@@ -202,6 +202,28 @@
 <!--              <Item Name="ReSharper Current Line Highlight" Foreground="0x02000000" Background="0x00E0FFFF" BoldFont="No"/>-->
             </Items>
           </Category>
+          <Category GUID="{75A05685-00A8-4DED-BAE5-E7A50BFA929A}" FontIsDefault="Yes">
+						<Items>
+							<Item Name="CSS Extension Variable Declaration" Foreground="$Violet" Background="$Background" BoldFont="No"/>
+							<Item Name="CSS Extension Variable Reference" Foreground="$Violet" Background="$Background" BoldFont="No"/>
+							<Item Name="CSS Extension Directive" Foreground="$Orange" Background="$Background" BoldFont="Yes"/>
+							<Item Name="CSS Extension Embedded Script" Foreground="$Violet" Background="$Background" BoldFont="No"/>
+							<Item Name="modernizr" Foreground="$EmphasizedContent" Background="$Background" BoldFont="Yes"/>
+							<Item Name="vendorhighlight" Foreground="$EmphasizedContent" Background="$Background" BoldFont="No"/>
+							<Item Name="vendor.declaration" Foreground="$EmphasizedContent" Background="$Background" BoldFont="No"/>
+							<Item Name="CoffeeScriptRawJavaScriptFormatDefinition" Foreground="$Yellow" Background="$Background" BoldFont="No"/>
+							<Item Name="CoffeeScriptHeRegExSeparatorFormatDefinition" Foreground="$Orange" Background="$Background" BoldFont="No"/>
+							<Item Name="LessCssVariableAtClassificationFormat" Foreground="$Violet" Background="$Background" BoldFont="No"/>
+							<Item Name="LessCssVariableDeclarationClassificationFormat" Foreground="$Violet" Background="$Background" BoldFont="No"/>
+							<Item Name="LessCssVariableReferenceFormat" Foreground="$Violet" Background="$Background" BoldFont="No"/>
+							<Item Name="LessCssNamespaceReferenceFormat" Foreground="$Red" Background="$Background" BoldFont="No"/>
+							<Item Name="LessCssMixinDeclarationFormat" Foreground="$Red" Background="$Background" BoldFont="No"/>
+							<Item Name="LessCssMixinReferenceFormat" Foreground="$Red" Background="$Background" BoldFont="No"/>
+							<Item Name="LessCssExpressionFormat" Foreground="$Cyan" Background="$Background" BoldFont="No"/>
+							<Item Name="LessCssAccessorFormat" Foreground="$Red" Background="$Background" BoldFont="No"/>
+							<Item Name="LessCssKeywordFormat" Foreground="$Orange" Background="$Background" BoldFont="No"/>
+						</Items>
+					</Category>
 					<!-- NuGet Package Manager Console -->
 					<Category GUID="{F9D6BCE6-C669-41DB-8EE7-DD953828685B}" FontIsDefault="Yes">
 						<Items>
