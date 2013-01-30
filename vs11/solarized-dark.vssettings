@@ -49,7 +49,7 @@
               <Item Name="Disassembly Symbol" Foreground="0x00C4716C" Background="0x02000000" BoldFont="No"/>
               <Item Name="Excluded Code" Foreground="0x00756E58" Background="0x00423607" BoldFont="No"/>
               <Item Name="MarkerFormatDefinition/HighlightedReference" Foreground="0x00756E58" Background="0x00423607" BoldFont="No"/>
-							<Item Name="MarkerFormatDefinition/FindHighlight" Foreground="0x00756E58" Background="0x00423607" BoldFont="No"/>
+              <Item Name="MarkerFormatDefinition/FindHighlight" Foreground="0x00756E58" Background="0x00423607" BoldFont="No"/>
               <Item Name="CurrentLineActiveFormat" Foreground="0x00423607" Background="0x00423607" BoldFont="No"/>
               <Item Name="CurrentLineInactiveFormat" Foreground="0x00423607" Background="0x00423607" BoldFont="No"/>
               <Item Name="HTML Attribute" Foreground="0x00969483" Background="0x02000000" BoldFont="No"/>
@@ -120,17 +120,97 @@
               <Item Name="XML Processing Instruction" Foreground="0x00164BCB" Background="0x02000000" BoldFont="No"/>
               <Item Name="XML Text" Foreground="0x00164BCB" Background="0x02000000" BoldFont="No"/>
               <Item Name="XSLT Keyword" Foreground="0x00D28B26" Background="0x02000000" BoldFont="No"/>
-							<Item Name="vsvim_commandmargin" Foreground="0x00969483" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="vsvim_commandmargin" Foreground="0x00969483" Background="0x00362B00" BoldFont="No"/>
             </Items>
           </Category>
-					<!-- NuGet Package Manager Console -->
-					<Category GUID="{F9D6BCE6-C669-41DB-8EE7-DD953828685B}" FontIsDefault="Yes">
-						<Items>
-							<Item Name="Plain Text" Foreground="0x00969483" Background="0x00362B00" BoldFont="No"/>
+          <Category GUID="{75A05685-00A8-4DED-BAE5-E7A50BFA929A}" FontIsDefault="Yes">
+            <Items>
+              <Item Name="ReSharper Current Line Highlight" Foreground="0x00A1A193" Background="0x00423607" BoldFont="No"/>
+              <Item Name="ReSharper Error Highlighting" Foreground="0x002F32DC" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Underlined Error Highlighting" Foreground="0x002F32DC" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Warning" Foreground="0x00079A71" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Dead Code" Foreground="0x00756E58" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Suggestion" Foreground="0x000089B5" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Non-Private Unused Members" Foreground="0x00756E58" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Hint" Foreground="0x0098A12A" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Todo Item" Foreground="0x00D28B26" Background="0x00362B00" BoldFont="Yes"/>
+              <Item Name="ReSharper Todo Item Marker on Error Stripe" Foreground="0x00D28B26" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Code Analysis Error Marker on Error Stripe" Foreground="0x002F32DC" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Code Analysis Warning Marker on Error Stripe" Foreground="0x00079A71" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Code Analysis Suggestion Marker on Error Stripe" Foreground="0x000089B5" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper ASP.NET MVC Action" Foreground="0x002F32DC" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper ASP.NET MVC Area" Foreground="0x002F32DC" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper ASP.NET MVC Controller" Foreground="0x002F32DC" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper ASP.NET MVC View" Foreground="0x002F32DC" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper ASP.NET RunAt attribute" Foreground="0x008236D3" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper HTML ID attribute" Foreground="0x00969483" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper HTML Entity" Foreground="0x002F32DC" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper CSS id selector" Foreground="0x00079A71" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper CSS keyword" Foreground="0x00164BCB" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper CSS class selector" Foreground="0x00079A71" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Highlight" Foreground="0x00164BCB" Background="0x00D28B26" BoldFont="No"/>
+              <Item Name="ReSharper Highlight Marker on Error Stripe" Foreground="0x00D28B26" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Read Usage" Foreground="0x00969483" Background="0x00C4716C" BoldFont="No"/>
+              <Item Name="ReSharper Read Usage Marker on Error Stripe" Foreground="0x00C4716C" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Highlight Target" Foreground="0x00969483" Background="0x002F32DC" BoldFont="No"/>
+              <Item Name="ReSharper Highlight Target Marker on Error Stripe" Foreground="0x002F32DC" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Write Usage" Foreground="0x00A1A193" Background="0x002F32DC" BoldFont="No"/>
+              <Item Name="ReSharper Write Usage Marker on Error Stripe" Foreground="0x002F32DC" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Navigation Highlight" Foreground="0x00A1A193" Background="0x00C4716C" BoldFont="No"/>
+              <Item Name="ReSharper Navigation Highlight Marker on Error Stripe" Foreground="0x00C4716C" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Matched Brace" Foreground="0x00969483" Background="0x00423607" BoldFont="No"/>
+              <Item Name="ReSharper Unmatched Brace" Foreground="0x00A1A193" Background="0x002F32DC" BoldFont="No"/>
+              <Item Name="ReSharper Brace Outline" Foreground="0x00A1A193" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Rearrange Left/Right Code Hint" Foreground="0x00A1A193" Background="0x00423607" BoldFont="No"/>
+              <Item Name="ReSharper Rearrange Up/Down Code Hint" Foreground="0x00A1A193" Background="0x00423607" BoldFont="No"/>
+              <Item Name="ReSharper Hyperlink" Foreground="0x0098A12A" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Name or Signature Changed" Foreground="0x00A1A193" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Constant Identifier" Foreground="0x008236D3" Background="0x00362B00" BoldFont="Yes"/>
+              <Item Name="ReSharper Event Identifier" Foreground="0x008236D3" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Field Identifier" Foreground="0x008236D3" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Local Variable Identifier" Foreground="0x00969483" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Mutable Local Variable Identifier" Foreground="0x00969483" Background="0x00362B00" BoldFont="Yes"/>
+              <Item Name="ReSharper Method Identifier" Foreground="0x0098A12A" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Extension Method Identifier" Foreground="0x0098A12A" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Operator Identifier" Foreground="0x0098A12A" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Namespace Identifier" Foreground="0x0098A12A" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Parameter Identifier" Foreground="0x00969483" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Late Bound Identifier" Foreground="0x00969483" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Path Identifier" Foreground="0x00969483" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Format String Item" Foreground="0x00969483" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Matched Format String Item" Foreground="0x00A1A193" Background="0x00423607" BoldFont="No"/>
+              <Item Name="ReSharper LiveTemplates Current HotSpot" Foreground="0x002F32DC" Background="0x00423607" BoldFont="No"/>
+              <Item Name="ReSharper LiveTemplates Current HotSpot mirror" Foreground="0x00756E58" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper LiveTemplates Inactive HotSpot" Foreground="0x002F32DC" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Template Editor Template Keyword" Foreground="0x00164BCB" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Template Editor C# Keyword" Foreground="0x00079A71" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Template Editor C# Preprocessor Directive" Foreground="0x00164BCB" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Template Editor C# Comment" Foreground="0x00756E58" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Template Editor JavaScript Comment" Foreground="0x00756E58" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Template Editor JavaScript Keyword" Foreground="0x00079A71" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Template Editor HTML Comment" Foreground="0x00756E58" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Template Editor HTML Tag" Foreground="0x00D28B26" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Template Editor HTML Attribute" Foreground="0x00969483" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Template Editor CSS Comment" Foreground="0x00756E58" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Template Editor CSS Keyword" Foreground="0x00164BCB" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Completion Replacement Range" Foreground="$Secondary" Background="0x000089B5" BoldFont="No"/>
+              <Item Name="ReSharper Class Identifier" Foreground="0x0098A12A" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Static Class Identifier" Foreground="0x0098A12A" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Struct Identifier" Foreground="0x0098A12A" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Enum Identifier" Foreground="0x0098A12A" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Interface Identifier" Foreground="0x0098A12A" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Delegate Identifier" Foreground="0x0098A12A" Background="0x00362B00" BoldFont="No"/>
+              <Item Name="ReSharper Type Parameter Identifier" Foreground="0x0098A12A" Background="0x00362B00" BoldFont="No"/>
+            </Items>
+          </Category>
+          <!-- NuGet Package Manager Console -->
+          <Category GUID="{F9D6BCE6-C669-41DB-8EE7-DD953828685B}" FontIsDefault="Yes">
+            <Items>
+              <Item Name="Plain Text" Foreground="0x00969483" Background="0x00362B00" BoldFont="No"/>
               <Item Name="Selected Text" Foreground="0x00969483" Background="0x00756E58" BoldFont="No"/>
               <Item Name="Inactive Selected Text" Foreground="0x00969483" Background="0x00756E58" BoldFont="No"/>
-						</Items>
-					</Category>
+            </Items>
+          </Category>
         </Categories>
       </FontsAndColors>
     </Category>
