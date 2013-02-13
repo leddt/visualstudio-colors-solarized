@@ -169,7 +169,7 @@
               <Item Name="ReSharper Field Identifier" Foreground="$PrimaryContent" Background="0x01000001" BoldFont="Yes"/>
               <Item Name="ReSharper Local Variable Identifier" Foreground="$PrimaryContent" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Mutable Local Variable Identifier" Foreground="$EmphasizedContent" Background="0x01000001" BoldFont="No"/>
-              <Item Name="ReSharper Method Identifier" Foreground="$EmphasizedContent" Background="0x01000001" BoldFont="Bold"/>
+              <Item Name="ReSharper Method Identifier" Foreground="$EmphasizedContent" Background="0x01000001" BoldFont="Yes"/>
               <Item Name="ReSharper Extension Method Identifier" Foreground="$Cyan" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Operator Identifier" Foreground="$Cyan" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Namespace Identifier" Foreground="$MiddleGray" Background="0x01000001" BoldFont="No"/>
