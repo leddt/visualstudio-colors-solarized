@@ -14,7 +14,7 @@
               <Item Name="Selected Text" Foreground="$PrimaryContent" Background="$SecondaryContent" BoldFont="No"/>
               <Item Name="Inactive Selected Text" Foreground="$PrimaryContent" Background="$SecondaryContent" BoldFont="No"/>
               <Item Name="Indicator Margin" Foreground="0x02000000" Background="$BgHighlight" BoldFont="No"/>
-              <Item Name="Line Numbers" Foreground="$MiddleGray" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="Line Number" Foreground="$MiddleGray" Background="$BgHighlight" BoldFont="No"/>
               <Item Name="Visible Whitespace" Foreground="$BgHighlight" Background="0x02000000" BoldFont="No"/>
               <Item Name="Bookmark" Foreground="$BgHighlight" Background="$Highlight1" BoldFont="No"/>
               <Item Name="Brace Matching (Rectangle)" Foreground="0x02000000" Background="$Highlight1" BoldFont="No"/>
