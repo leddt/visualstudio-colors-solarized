@@ -40,6 +40,7 @@
               <Item Name="Compiler Error" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppMacroSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppEnumSemanticTokenFormat" Foreground="$Yellow" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppGlobalVariableSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppLocalVariableSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppParameterSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppTypeSemanticTokenFormat" Foreground="$Yellow" Background="0x02000000" BoldFont="No"/>
