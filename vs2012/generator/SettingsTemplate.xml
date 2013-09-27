@@ -38,6 +38,26 @@
               <Item Name="Collapsible Text" Foreground="$SecondaryContent" Background="$BgHighlight" BoldFont="No"/>
               <Item Name="Comment" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="Compiler Error" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppMacroSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppEnumSemanticTokenFormat" Foreground="$Yellow" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppGlobalVariableSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppLocalVariableSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppParameterSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppTypeSemanticTokenFormat" Foreground="$Yellow" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppRefTypeSemanticTokenFormat" Foreground="$Yellow" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppValueTypeSemanticTokenFormat" Foreground="$Yellow" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppFunctionSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppMemberFunctionSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppMemberFieldSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppStaticMemberFunctionSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppStaticMemberFieldSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppPropertySemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppEventSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppClassTemplateSemanticTokenFormat" Foreground="$Yellow" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppGenericTypeSemanticTokenFormat" Foreground="$Yellow" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppFunctionTemplateSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppNamespaceSemanticTokenFormat" Foreground="$Orange" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppLabelSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="CSS Comment" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="CSS Keyword" Foreground="$Orange" Background="0x02000000" BoldFont="No"/>
               <Item Name="CSS Property Name" Foreground="$Yellow" Background="0x02000000" BoldFont="No"/>
@@ -49,7 +69,7 @@
               <Item Name="Disassembly Symbol" Foreground="$Violet" Background="0x02000000" BoldFont="No"/>
               <Item Name="Excluded Code" Foreground="$SecondaryContent" Background="$BgHighlight" BoldFont="No"/>
               <Item Name="MarkerFormatDefinition/HighlightedReference" Foreground="$SecondaryContent" Background="$BgHighlight" BoldFont="No"/>
-							<Item Name="MarkerFormatDefinition/FindHighlight" Foreground="$SecondaryContent" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="MarkerFormatDefinition/FindHighlight" Foreground="$SecondaryContent" Background="$BgHighlight" BoldFont="No"/>
               <Item Name="CurrentLineActiveFormat" Foreground="$BgHighlight" Background="$BgHighlight" BoldFont="No"/>
               <Item Name="CurrentLineInactiveFormat" Foreground="$BgHighlight" Background="$BgHighlight" BoldFont="No"/>
               <Item Name="HTML Attribute" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
@@ -177,7 +197,7 @@
               <Item Name="ReSharper Late Bound Identifier" Foreground="$Cyan" Background="0x01000001" BoldFont="No"/>
 <!--              <Item Name="ReSharper Path Identifier" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
               <Item Name="ReSharper Format String Item" Foreground="$Green" Background="0x01000001" BoldFont="No"/>
-			  <!-- This color is used to highlight the variable/format string pair when the cursor is on one of them. -->
+              <!-- This color is used to highlight the variable/format string pair when the cursor is on one of them. -->
               <Item Name="ReSharper Matched Format String Item" Foreground="0x02000000" Background="$BgHighlight" BoldFont="Yes"/>
 <!--              <Item Name="ReSharper LiveTemplates Current HotSpot" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
 <!--              <Item Name="ReSharper LiveTemplates Current HotSpot mirror" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
@@ -203,35 +223,35 @@
             </Items>
           </Category>
           <Category GUID="{75A05685-00A8-4DED-BAE5-E7A50BFA929A}" FontIsDefault="Yes">
-						<Items>
-							<Item Name="CSS Extension Variable Declaration" Foreground="$Violet" Background="$Background" BoldFont="No"/>
-							<Item Name="CSS Extension Variable Reference" Foreground="$Violet" Background="$Background" BoldFont="No"/>
-							<Item Name="CSS Extension Directive" Foreground="$Orange" Background="$Background" BoldFont="Yes"/>
-							<Item Name="CSS Extension Embedded Script" Foreground="$Violet" Background="$Background" BoldFont="No"/>
-							<Item Name="modernizr" Foreground="$EmphasizedContent" Background="$Background" BoldFont="Yes"/>
-							<Item Name="vendorhighlight" Foreground="$EmphasizedContent" Background="$Background" BoldFont="No"/>
-							<Item Name="vendor.declaration" Foreground="$EmphasizedContent" Background="$Background" BoldFont="No"/>
-							<Item Name="CoffeeScriptRawJavaScriptFormatDefinition" Foreground="$Yellow" Background="$Background" BoldFont="No"/>
-							<Item Name="CoffeeScriptHeRegExSeparatorFormatDefinition" Foreground="$Orange" Background="$Background" BoldFont="No"/>
-							<Item Name="LessCssVariableAtClassificationFormat" Foreground="$Violet" Background="$Background" BoldFont="No"/>
-							<Item Name="LessCssVariableDeclarationClassificationFormat" Foreground="$Violet" Background="$Background" BoldFont="No"/>
-							<Item Name="LessCssVariableReferenceFormat" Foreground="$Violet" Background="$Background" BoldFont="No"/>
-							<Item Name="LessCssNamespaceReferenceFormat" Foreground="$Red" Background="$Background" BoldFont="No"/>
-							<Item Name="LessCssMixinDeclarationFormat" Foreground="$Red" Background="$Background" BoldFont="No"/>
-							<Item Name="LessCssMixinReferenceFormat" Foreground="$Red" Background="$Background" BoldFont="No"/>
-							<Item Name="LessCssExpressionFormat" Foreground="$Cyan" Background="$Background" BoldFont="No"/>
-							<Item Name="LessCssAccessorFormat" Foreground="$Red" Background="$Background" BoldFont="No"/>
-							<Item Name="LessCssKeywordFormat" Foreground="$Orange" Background="$Background" BoldFont="No"/>
-						</Items>
-					</Category>
-					<!-- NuGet Package Manager Console -->
-					<Category GUID="{F9D6BCE6-C669-41DB-8EE7-DD953828685B}" FontIsDefault="Yes">
-						<Items>
-							<Item Name="Plain Text" Foreground="$PrimaryContent" Background="$Background" BoldFont="No"/>
+            <Items>
+              <Item Name="CSS Extension Variable Declaration" Foreground="$Violet" Background="$Background" BoldFont="No"/>
+              <Item Name="CSS Extension Variable Reference" Foreground="$Violet" Background="$Background" BoldFont="No"/>
+              <Item Name="CSS Extension Directive" Foreground="$Orange" Background="$Background" BoldFont="Yes"/>
+              <Item Name="CSS Extension Embedded Script" Foreground="$Violet" Background="$Background" BoldFont="No"/>
+              <Item Name="modernizr" Foreground="$EmphasizedContent" Background="$Background" BoldFont="Yes"/>
+              <Item Name="vendorhighlight" Foreground="$EmphasizedContent" Background="$Background" BoldFont="No"/>
+              <Item Name="vendor.declaration" Foreground="$EmphasizedContent" Background="$Background" BoldFont="No"/>
+              <Item Name="CoffeeScriptRawJavaScriptFormatDefinition" Foreground="$Yellow" Background="$Background" BoldFont="No"/>
+              <Item Name="CoffeeScriptHeRegExSeparatorFormatDefinition" Foreground="$Orange" Background="$Background" BoldFont="No"/>
+              <Item Name="LessCssVariableAtClassificationFormat" Foreground="$Violet" Background="$Background" BoldFont="No"/>
+              <Item Name="LessCssVariableDeclarationClassificationFormat" Foreground="$Violet" Background="$Background" BoldFont="No"/>
+              <Item Name="LessCssVariableReferenceFormat" Foreground="$Violet" Background="$Background" BoldFont="No"/>
+              <Item Name="LessCssNamespaceReferenceFormat" Foreground="$Red" Background="$Background" BoldFont="No"/>
+              <Item Name="LessCssMixinDeclarationFormat" Foreground="$Red" Background="$Background" BoldFont="No"/>
+              <Item Name="LessCssMixinReferenceFormat" Foreground="$Red" Background="$Background" BoldFont="No"/>
+              <Item Name="LessCssExpressionFormat" Foreground="$Cyan" Background="$Background" BoldFont="No"/>
+              <Item Name="LessCssAccessorFormat" Foreground="$Red" Background="$Background" BoldFont="No"/>
+              <Item Name="LessCssKeywordFormat" Foreground="$Orange" Background="$Background" BoldFont="No"/>
+            </Items>
+          </Category>
+          <!-- NuGet Package Manager Console -->
+          <Category GUID="{F9D6BCE6-C669-41DB-8EE7-DD953828685B}" FontIsDefault="Yes">
+            <Items>
+              <Item Name="Plain Text" Foreground="$PrimaryContent" Background="$Background" BoldFont="No"/>
               <Item Name="Selected Text" Foreground="$PrimaryContent" Background="$SecondaryContent" BoldFont="No"/>
               <Item Name="Inactive Selected Text" Foreground="$PrimaryContent" Background="$SecondaryContent" BoldFont="No"/>
-						</Items>
-					</Category>
+            </Items>
+          </Category>
         </Categories>
       </FontsAndColors>
     </Category>
