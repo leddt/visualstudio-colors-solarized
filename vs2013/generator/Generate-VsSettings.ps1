@@ -73,7 +73,7 @@ if ($type -eq "dark") {
 	$hash = $solarizedColorsLight
 }
 
-# -delimiter "blah" is a way to force PowerShell to load it all as one string
+# -delimiter "nosuchthing" is a way to force PowerShell to load it all as one string
 $content = get-content -delimiter "nosuchthing" SettingsTemplate.xml
 
 $hash.Keys | % {
