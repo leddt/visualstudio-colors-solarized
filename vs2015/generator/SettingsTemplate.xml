@@ -1,0 +1,269 @@
+<UserSettings>
+  <ApplicationIdentity version="14.0"/>
+  <ToolsOptions>
+    <ToolsOptionsCategory name="Environment" RegisteredName="Environment"/>
+  </ToolsOptions>
+  <Category name="Environment_Group" RegisteredName="Environment_Group">
+    <Category name="Environment_FontsAndColors" Category="{1EDA5DD4-927A-43a7-810E-7FD247D0DA1D}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_FontsAndColors" PackageName="Visual Studio Environment Package">
+      <PropertyValue name="Version">2</PropertyValue>
+      <FontsAndColors Version="2.0">
+        <Categories>
+          <Category GUID="{58E96763-1D3B-4E05-B6BA-FF7115FD0B7B}" FontIsDefault="Yes">
+            <Items>
+              <Item Name="Visible Whitespace" Foreground="$BgHighlight" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Indicator Margin" Foreground="0x02000000" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="Inactive Selected Text" Foreground="$PrimaryContent" Background="$SecondaryContent" BoldFont="No"/>
+              <Item Name="Selected Text" Foreground="$PrimaryContent" Background="$SecondaryContent" BoldFont="No"/>
+              <Item Name="Plain Text" Foreground="$PrimaryContent" Background="$Background" BoldFont="Yes"/>
+            </Items>
+          </Category>
+          <Category GUID="{E0187991-B458-4F7E-8CA9-42C9A573B56C}" FontIsDefault="Yes">
+            <Items>
+              <Item Name="XSLT Keyword" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XML Attribute Quotes" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XML Attribute Value" Foreground="$Cyan" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XML Processing Instruction" Foreground="$Orange" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XML CData Section" Foreground="$PrimaryContent" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="XML Attribute" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XML Name" Foreground="$Blue" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="XML Comment" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XML Delimiter" Foreground="$Magenta" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XML Keyword" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XML Text" Foreground="$Orange" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XAML Markup Extension Parameter Value" Foreground="$Yellow" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XAML Markup Extension Parameter Name" Foreground="$Green" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XAML Markup Extension Class" Foreground="$Orange" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XAML Attribute Quotes" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XAML Attribute Value" Foreground="$Cyan" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XAML Processing Instruction" Foreground="$Orange" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XAML CData Section" Foreground="$PrimaryContent" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="XAML Attribute" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XAML Name" Foreground="$Blue" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="XAML Comment" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XAML Delimiter" Foreground="$Magenta" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XAML Keyword" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XAML Text" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Register Data Changed" Foreground="$Red" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Memory Changed" Foreground="$Red" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Stale Code" Foreground="$Magenta" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Number" Foreground="$Cyan" Background="0x02000000" BoldFont="No"/>
+              <Item Name="String" Foreground="$Cyan" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Identifier" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Comment" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Keyword" Foreground="$Green" Background="0x02000000" BoldFont="No"/>
+            </Items>
+          </Category>
+          <Category GUID="{75A05685-00A8-4DED-BAE5-E7A50BFA929A}" FontIsDefault="Yes">
+            <Items>
+              <Item Name="MarkerFormatDefinition/FindHighlight" Foreground="$SecondaryContent" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="XML Doc Tag" Foreground="$SecondaryContent" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="XML Doc Comment" Foreground="$SecondaryContent" Background="$BgHighlight" BoldFont="Yes"/>
+              <Item Name="MarkerFormatDefinition/HighlightedReference" Foreground="$SecondaryContent" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="CppLabelSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppGenericTypeSemanticTokenFormat" Foreground="$Yellow" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppClassTemplateSemanticTokenFormat" Foreground="$Yellow" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppEventSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppPropertySemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppStaticMemberFieldSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppStaticMemberFunctionSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppMemberFieldSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppMemberFunctionSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppFunctionSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppValueTypeSemanticTokenFormat" Foreground="$Yellow" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppRefTypeSemanticTokenFormat" Foreground="$Yellow" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppTypeSemanticTokenFormat" Foreground="$Yellow" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppParameterSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppLocalVariableSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppGlobalVariableSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppEnumSemanticTokenFormat" Foreground="$Yellow" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppMacroSemanticTokenFormat" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CurrentLineInactiveFormat" Foreground="$BgHighlight" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="CurrentLineActiveFormat" Foreground="$BgHighlight" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="Inactive Selected Text" Foreground="$PrimaryContent" Background="$SecondaryContent" BoldFont="No"/>
+              <Item Name="Selected Text" Foreground="$PrimaryContent" Background="$SecondaryContent" BoldFont="No"/>
+              <Item Name="Visible Whitespace" Foreground="$BgHighlight" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Track Changes after save" Foreground="0x02000000" Background="$Green" BoldFont="No"/>
+              <Item Name="Track Changes before save" Foreground="0x02000000" Background="$Yellow" BoldFont="No"/>
+              <Item Name="Line Number" Foreground="$MiddleGray" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="other error" Foreground="$Magenta" Background="0x02000000" BoldFont="No"/>
+              <Item Name="compiler error" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
+              <Item Name="syntax error" Foreground="$Red" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Number" Foreground="$Cyan" Background="0x02000000" BoldFont="No"/>
+              <Item Name="String" Foreground="$Cyan" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Operator" Foreground="$Green" Background="0x02000000" BoldFont="No"/>
+              <Item Name="punctuation" Foreground="$PrimaryContent" Background="$Background" BoldFont="No"/>
+              <Item Name="Preprocessor Keyword" Foreground="$Orange" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Keyword" Foreground="$Green" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Identifier" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Excluded Code" Foreground="$SecondaryContent" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="Comment" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="VBScript String" Foreground="$Cyan" Background="0x02000000" BoldFont="No"/>
+              <Item Name="VBScript Number" Foreground="$Cyan" Background="0x02000000" BoldFont="No"/>
+              <Item Name="VBScript Operator" Foreground="$Green" Background="0x02000000" BoldFont="No"/>
+              <Item Name="VBScript Comment" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="VBScript Keyword" Foreground="$Green" Background="0x02000000" BoldFont="No"/>
+              <Item Name="HTML Tag Delimiter" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="HTML Server-Side Script" Foreground="$Magenta" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="HTML Operator" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="HTML Entity" Foreground="$Red" Background="0x02000000" BoldFont="No"/>
+              <Item Name="HTML Element Name" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
+              <Item Name="HTML Comment" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="HTML Attribute Value" Foreground="$Cyan" Background="0x02000000" BoldFont="No"/>
+              <Item Name="HTML Attribute" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Razor Code" Foreground="0x02000000" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="SymbolLineClassificationFormat" Foreground="$Violet" Background="0x02000000" BoldFont="No"/>
+              <Item Name="interface name" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="enum name" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="delegate name" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="class name" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="string - verbatim" Foreground="$Cyan" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="CoffeeScriptHeRegExSeparatorFormatDefinition" Foreground="$Orange" Background="$Background" BoldFont="No"/>
+              <Item Name="CoffeeScriptRawJavaScriptFormatDefinition" Foreground="$Yellow" Background="$Background" BoldFont="No"/>
+              <Item Name="LessCssKeywordFormat" Foreground="$Orange" Background="$Background" BoldFont="No"/>
+              <Item Name="LessCssMixinReferenceFormat" Foreground="$Red" Background="$Background" BoldFont="No"/>
+              <Item Name="LessCssMixinDeclarationFormat" Foreground="$Red" Background="$Background" BoldFont="No"/>
+              <Item Name="LessCssNamespaceReferenceFormat" Foreground="$Red" Background="$Background" BoldFont="No"/>
+              <Item Name="LessCssVariableReferenceFormat" Foreground="$Violet" Background="$Background" BoldFont="No"/>
+              <Item Name="LessCssVariableDeclarationClassificationFormat" Foreground="$Violet" Background="$Background" BoldFont="No"/>
+              <Item Name="CSS String Value" Foreground="$Cyan" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CSS Property Value" Foreground="$Cyan" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CSS Property Name" Foreground="$Yellow" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CSS Selector" Foreground="$Green" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CSS Keyword" Foreground="$Orange" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CSS Comment" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
+              <!-- ReSharper-specific settings -->
+              <!--
+              <Item Name="ReSharper Current Line Highlight" Foreground="0x02000000" Background="0x00E0FFFF" BoldFont="No"/>
+              -->
+              <Item Name="ReSharper Warning" Foreground="$Orange" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Dead Code" Foreground="$SecondaryContent" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Suggestion" Foreground="$Green" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Non-Private Unused Members" Foreground="$SecondaryContent" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Hint" Foreground="$Green" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Todo Item Normal" Foreground="$Violet" Background="0x01000001" BoldFont="Yes"/>
+              <Item Name="ReSharper Todo Item Normal Marker on Error Stripe" Foreground="$Violet" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Code Analysis Error Marker on Error Stripe" Foreground="$Red" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Code Analysis Warning Marker on Error Stripe" Foreground="$Yellow" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Code Analysis Suggestion Marker on Error Stripe" Foreground="$Green" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Template Editor C# Keyword" Foreground="$Green" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Template Editor C# Comment" Foreground="$SecondaryContent" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Template Editor C# Preprocessor Directive" Foreground="$Orange" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Template Editor CSS Keyword" Foreground="$Orange" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper ASP.NET MVC Action" Foreground="$Violet" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper ASP.NET MVC Area" Foreground="$Violet" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper ASP.NET MVC Controller" Foreground="$Violet" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper ASP.NET MVC View" Foreground="$Violet" Background="0x01000001" BoldFont="No"/>
+              <!--
+              <Item Name="ReSharper ASP.NET RunAt attribute" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper HTML ID attriute" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper HTML Entity" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper CSS id selector" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper CSS keyword" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper CSS class selector" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Highlight" Foreground="0x02000000" Background="0x00FACE87" BoldFont="No"/>
+              <Item Name="ReSharper Highlight Marker on Error Stripe" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Read Usage" Foreground="0x02000000" Background="0x00FACE87" BoldFont="No"/>
+              <Item Name="ReSharper Read Usage Marker on Error Stripe" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Highlight Target" Foreground="0x02000000" Background="0x00C1B6FF" BoldFont="No"/>
+              <Item Name="ReSharper Highlight Target Marker on Error Stripe" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Write Usage" Foreground="0x02000000" Background="0x00C1B6FF" BoldFont="No"/>
+              <Item Name="ReSharper Write Usage Marker on Error Stripe" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Navigation Highlight" Foreground="0x02000000" Background="0x00FACE87" BoldFont="No"/>
+              <Item Name="ReSharper Navigation Highlight Marker on Error Stripe" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
+              -->
+              <Item Name="ReSharper Matched Brace" Foreground="0x02000000" Background="$SecondaryContent" BoldFont="No"/>
+              <Item Name="ReSharper Unmatched Brace" Foreground="0x02000000" Background="$Red" BoldFont="No"/>
+              <Item Name="ReSharper Brace Outline" Foreground="$SecondaryContent" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Hyperlink" Foreground="$Blue" Background="0x01000001" BoldFont="No"/>
+              <!--
+              <Item Name="ReSharper Name or Signature Changed" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Template Editor HTML Attribute" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Template Editor HTML Tag" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
+              -->
+              <Item Name="ReSharper Constant Identifier" Foreground="$Magenta" Background="0x01000001" BoldFont="Yes"/>
+              <Item Name="ReSharper Event Identifier" Foreground="$Violet" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Field Identifier" Foreground="$PrimaryContent" Background="0x01000001" BoldFont="Yes"/>
+              <Item Name="ReSharper Local Variable Identifier" Foreground="$PrimaryContent" Background="0x01000001" BoldFont="No"/>
+              <!--
+              <Item Name="ReSharper Parameter Identifier" Foreground="0x02000000" Background="0x01000001" BoldFont="Yes"/>
+              -->
+              <Item Name="ReSharper Mutable Local Variable Identifier" Foreground="$EmphasizedContent" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Method Identifier" Foreground="$EmphasizedContent" Background="0x01000001" BoldFont="Yes"/>
+              <Item Name="ReSharper Extension Method Identifier" Foreground="$Cyan" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Operator Identifier" Foreground="$Cyan" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Namespace Identifier" Foreground="$MiddleGray" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Late Bound Identifier" Foreground="$Cyan" Background="0x01000001" BoldFont="No"/>
+              <!--
+              <Item Name="ReSharper Path Identifier" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
+              -->
+              <Item Name="ReSharper Format String Item" Foreground="$Green" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Matched Format String Item" Foreground="0x02000000" Background="$BgHighlight" BoldFont="Yes"/>
+              <Item Name="ReSharper Template Editor JavaScript Comment" Foreground="$SecondaryContent" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Template Editor JavaScript Keyword" Foreground="$Green" Background="0x01000001" BoldFont="No"/>
+              <!--
+              <Item Name="ReSharper LiveTemplates Current HotSpot" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper LiveTemplates Current HotSpot mirror" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper LiveTemplates Inactive HotSpot" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
+              -->
+              <Item Name="ReSharper Template Editor Template Keyword" Foreground="$Yellow" Background="0x01000001" BoldFont="No"/>
+              <!--
+              <Item Name="ReSharper Completion Replacement Range" Foreground="0x02000000" Background="0x00E1E4FF" BoldFont="No"/>
+              -->
+              <Item Name="ReSharper Rearrange Left/Right Code Hint" Foreground="$Green" Background="0x0078F9FC" BoldFont="No"/>
+              <!--
+              <Item Name="ReSharper Rearrange Up/Down Code Hint" Foreground="0x02000000" Background="0x00F3DBB1" BoldFont="No"/>
+              -->
+              <Item Name="ReSharper Class Identifier" Foreground="$Yellow" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Static Class Identifier" Foreground="$Yellow" Background="0x01000001" BoldFont="Yes"/>
+              <Item Name="ReSharper Struct Identifier" Foreground="$Yellow" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Enum Identifier" Foreground="$Yellow" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Interface Identifier" Foreground="$Yellow" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Delegate Identifier" Foreground="$Violet" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Type Parameter Identifier" Foreground="$Magenta" Background="0x01000001" BoldFont="No"/>
+            </Items>
+          </Category>
+          <Category GUID="{FF349800-EA43-46C1-8C98-878E78F46501}" FontIsDefault="Yes">
+            <Items>
+              <Item Name="Breakpoint - Mapped (Enabled)" Foreground="$Highlight2" Background="$Red" BoldFont="No"/>
+              <Item Name="Call Return (new context)" Foreground="$BgHighlight" Background="$Cyan" BoldFont="No"/>
+              <Item Name="Call Return" Foreground="$Background" Background="$Cyan" BoldFont="No"/>
+              <Item Name="Breakpoint (Enabled)" Foreground="$Highlight2" Background="$Red" BoldFont="No"/>
+              <Item Name="SQL DML Marker" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Breakpoint - Selected" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Breakpoint (Warning)" Foreground="$Highlight2" Background="$Red" BoldFont="No"/>
+              <Item Name="Breakpoint (Error)" Foreground="$Highlight1" Background="$Red" BoldFont="No"/>
+              <Item Name="Breakpoint (Disabled)" Foreground="$Red" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Breakpoint - Advanced (Error)" Foreground="$Highlight1" Background="$Red" BoldFont="No"/>
+              <Item Name="Breakpoint - Mapped (Error)" Foreground="$Highlight1" Background="$Red" BoldFont="No"/>
+              <Item Name="Breakpoint - Mapped (Disabled)" Foreground="$Red" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Breakpoint - Mapped (Warning)" Foreground="$Highlight2" Background="$Red" BoldFont="No"/>
+              <Item Name="Breakpoint - Advanced (Warning)" Foreground="$Highlight2" Background="$Red" BoldFont="No"/>
+              <Item Name="Breakpoint - Advanced (Enabled)" Foreground="$Highlight2" Background="$Red" BoldFont="No"/>
+              <Item Name="Breakpoint - Advanced (Disabled)" Foreground="$Red" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Refactoring Dependent Field" Foreground="$Highlight1" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Refactoring Current Field" Foreground="0x01000000" Background="$Highlight1" BoldFont="No"/>
+              <Item Name="Code Snippet Dependent Field" Foreground="$Highlight1" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Refactoring Background" Foreground="0x01000002" Background="$Highlight2" BoldFont="No"/>
+              <Item Name="Warning Lines Path" Foreground="$Blue" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="Definition Window Current Match" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Brace Matching (Rectangle)" Foreground="0x02000000" Background="$Highlight1" BoldFont="No"/>
+              <Item Name="Track Changes after save" Foreground="0x02000000" Background="$Green" BoldFont="No"/>
+              <Item Name="Track Changes before save" Foreground="0x02000000" Background="$Yellow" BoldFont="No"/>
+              <Item Name="Smart Tag" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Code Snippet Field" Foreground="0x01000000" Background="$Highlight1" BoldFont="No"/>
+              <Item Name="compiler warning" Foreground="$Green" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Current list location" Foreground="$Highlight1" Background="$Blue" BoldFont="No"/>
+              <Item Name="Collapsible Text (Expanded)" Foreground="$SecondaryContent" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="Collapsible Text (Collapsed)" Foreground="0x00000000" Background="$BgHighlight" BoldFont="No"/>
+              <Item Name="other error" Foreground="$Magenta" Background="0x02000000" BoldFont="No"/>
+              <Item Name="syntax error" Foreground="$Red" Background="0x02000000" BoldFont="No"/>
+              <Item Name="compiler error" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Bookmark" Foreground="$BgHighlight" Background="$Highlight1" BoldFont="No"/>
+              <Item Name="Task List Shortcut" Foreground="$Background" Background="$Blue" BoldFont="No"/>
+            </Items>
+          </Category>
+        </Categories>
+      </FontsAndColors>
+    </Category>
+  </Category>
+</UserSettings>
