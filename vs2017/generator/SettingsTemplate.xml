@@ -111,6 +111,11 @@
               <Item Name="User Types(Enums)" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="User Types(Interfaces)" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="User Types(Value types)" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="module name" Foreground="$Yellow" Background="0x02000000" BoldFont="No"/>
+              <Item Name="interface name" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="enum name" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="delegate name" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="class name" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="Warning" Foreground="$Green" Background="0x02000000" BoldFont="No"/>
               <Item Name="Warning Lines Path" Foreground="$Blue" Background="$BgHighlight" BoldFont="No"/>
               <Item Name="XAML Attribute" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
