@@ -111,6 +111,11 @@
               <Item Name="User Types(Enums)" Foreground="0x000089b5" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="User Types(Interfaces)" Foreground="0x000089b5" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="User Types(Value types)" Foreground="0x000089b5" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="module name" Foreground="0x000089b5" Background="0x02000000" BoldFont="No"/>
+              <Item Name="interface name" Foreground="0x000089b5" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="enum name" Foreground="0x000089b5" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="delegate name" Foreground="0x000089b5" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="class name" Foreground="0x000089b5" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="Warning" Foreground="0x00079A71" Background="0x02000000" BoldFont="No"/>
               <Item Name="Warning Lines Path" Foreground="0x00D28B26" Background="0x00D5E8EE" BoldFont="No"/>
               <Item Name="XAML Attribute" Foreground="0x00837B65" Background="0x02000000" BoldFont="No"/>
@@ -134,6 +139,12 @@
               <Item Name="XML Delimiter" Foreground="0x008236D3" Background="0x02000000" BoldFont="No"/>
               <Item Name="XML Doc Attribute" Foreground="0x00A1A193" Background="0x00D5E8EE" BoldFont="No"/>
               <Item Name="XML Doc Comment" Foreground="0x00A1A193" Background="0x00D5E8EE" BoldFont="Yes"/>
+              <Item Name="xml doc comment - text" Foreground="0x00A1A193" Background="0x02000000" BoldFont="No"/>
+              <Item Name="xml doc comment - processing instruction" Foreground="0x00A1A193" Background="0x02000000" BoldFont="No"/>
+              <Item Name="xml doc comment - name" Foreground="0x00A1A193" Background="0x02000000" BoldFont="No"/>
+              <Item Name="xml doc comment - entity reference" Foreground="0x00A1A193" Background="0x02000000" BoldFont="No"/>
+              <Item Name="xml doc comment - delimiter" Foreground="0x00A1A193" Background="0x02000000" BoldFont="No"/>
+              <Item Name="xml doc comment - comment" Foreground="0x00A1A193" Background="0x02000000" BoldFont="No"/>
               <Item Name="XML Doc Tag" Foreground="0x00A1A193" Background="0x00D5E8EE" BoldFont="No"/>
               <Item Name="XML Keyword" Foreground="0x00D28B26" Background="0x02000000" BoldFont="No"/>
               <Item Name="XML Name" Foreground="0x00D28B26" Background="0x02000000" BoldFont="Yes"/>
