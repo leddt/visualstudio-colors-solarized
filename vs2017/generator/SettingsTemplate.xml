@@ -102,7 +102,7 @@
               <Item Name="SQL DML Marker" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
               <Item Name="Stale Code" Foreground="$Magenta" Background="0x02000000" BoldFont="No"/>
               <Item Name="String" Foreground="$Cyan" Background="0x02000000" BoldFont="No"/>
-              <Item Name="String(C# @ Verbatim)" Foreground="$Cyan" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="string - verbatim" Foreground="$Cyan" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="Syntax Error" Foreground="$Red" Background="0x02000000" BoldFont="No"/>
               <Item Name="Task List Shortcut" Foreground="$Background" Background="$Blue" BoldFont="No"/>
               <Item Name="Track Changes after save" Foreground="0x02000000" Background="$Green" BoldFont="No"/>
