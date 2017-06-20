@@ -87,6 +87,7 @@
               <Item Name="Operator" Foreground="0x00079A71" Background="0x02000000" BoldFont="No"/>
               <Item Name="Other Error" Foreground="0x008236D3" Background="0x02000000" BoldFont="No"/>
               <Item Name="Preprocessor Keyword" Foreground="0x00164BCB" Background="0x02000000" BoldFont="No"/>
+              <Item Name="punctuation" Foreground="0x00969483" Background="0x02000000" BoldFont="No"/>
               <Item Name="Razor Code" Foreground="0x02000000" Background="0x00423607" BoldFont="No"/>
               <Item Name="Refactoring Background" Foreground="0x01000002" Background="0x00E3F6FD" BoldFont="No"/>
               <Item Name="Refactoring Current Field" Foreground="0x01000000" Background="0x00D5E8EE" BoldFont="No"/>
@@ -101,7 +102,7 @@
               <Item Name="SQL DML Marker" Foreground="0x00D28B26" Background="0x02000000" BoldFont="No"/>
               <Item Name="Stale Code" Foreground="0x008236D3" Background="0x02000000" BoldFont="No"/>
               <Item Name="String" Foreground="0x0098A12A" Background="0x02000000" BoldFont="No"/>
-              <Item Name="String(C# @ Verbatim)" Foreground="0x0098A12A" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="string - verbatim" Foreground="0x0098A12A" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="Syntax Error" Foreground="0x002F32DC" Background="0x02000000" BoldFont="No"/>
               <Item Name="Task List Shortcut" Foreground="0x00362B00" Background="0x00D28B26" BoldFont="No"/>
               <Item Name="Track Changes after save" Foreground="0x02000000" Background="0x00079A71" BoldFont="No"/>
@@ -111,6 +112,7 @@
               <Item Name="User Types(Enums)" Foreground="0x000089B5" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="User Types(Interfaces)" Foreground="0x000089B5" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="User Types(Value types)" Foreground="0x000089B5" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="urlformat" Foreground="0x00D28B26" Background="0x02000000" BoldFont="No"/>
               <Item Name="module name" Foreground="0x000089B5" Background="0x02000000" BoldFont="No"/>
               <Item Name="interface name" Foreground="0x000089B5" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="enum name" Foreground="0x000089B5" Background="0x02000000" BoldFont="Yes"/>

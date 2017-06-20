@@ -87,6 +87,7 @@
               <Item Name="Operator" Foreground="$Green" Background="0x02000000" BoldFont="No"/>
               <Item Name="Other Error" Foreground="$Magenta" Background="0x02000000" BoldFont="No"/>
               <Item Name="Preprocessor Keyword" Foreground="$Orange" Background="0x02000000" BoldFont="No"/>
+              <Item Name="punctuation" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="Razor Code" Foreground="0x02000000" Background="$BgHighlight" BoldFont="No"/>
               <Item Name="Refactoring Background" Foreground="0x01000002" Background="$Highlight2" BoldFont="No"/>
               <Item Name="Refactoring Current Field" Foreground="0x01000000" Background="$Highlight1" BoldFont="No"/>
@@ -101,7 +102,7 @@
               <Item Name="SQL DML Marker" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
               <Item Name="Stale Code" Foreground="$Magenta" Background="0x02000000" BoldFont="No"/>
               <Item Name="String" Foreground="$Cyan" Background="0x02000000" BoldFont="No"/>
-              <Item Name="String(C# @ Verbatim)" Foreground="$Cyan" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="string - verbatim" Foreground="$Cyan" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="Syntax Error" Foreground="$Red" Background="0x02000000" BoldFont="No"/>
               <Item Name="Task List Shortcut" Foreground="$Background" Background="$Blue" BoldFont="No"/>
               <Item Name="Track Changes after save" Foreground="0x02000000" Background="$Green" BoldFont="No"/>
@@ -111,6 +112,7 @@
               <Item Name="User Types(Enums)" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="User Types(Interfaces)" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="User Types(Value types)" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="urlformat" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
               <Item Name="module name" Foreground="$Yellow" Background="0x02000000" BoldFont="No"/>
               <Item Name="interface name" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="enum name" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
