@@ -112,6 +112,7 @@
               <Item Name="User Types(Enums)" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="User Types(Interfaces)" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="User Types(Value types)" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="urlformat" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
               <Item Name="module name" Foreground="$Yellow" Background="0x02000000" BoldFont="No"/>
               <Item Name="interface name" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="enum name" Foreground="$Yellow" Background="0x02000000" BoldFont="Yes"/>
