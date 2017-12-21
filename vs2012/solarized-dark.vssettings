@@ -62,7 +62,7 @@
               <Item Name="CSS Keyword" Foreground="0x00164BCB" Background="0x02000000" BoldFont="No"/>
               <Item Name="CSS Property Name" Foreground="0x000089B5" Background="0x02000000" BoldFont="No"/>
               <Item Name="CSS Property Value" Foreground="0x0098A12A" Background="0x02000000" BoldFont="No"/>
-              <Item Name="CSS Selector" Foreground="0x00079A71" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CSS Selector" Foreground="0x00009985" Background="0x02000000" BoldFont="No"/>
               <Item Name="CSS String Value" Foreground="0x0098A12A" Background="0x02000000" BoldFont="No"/>
               <Item Name="Current list location" Foreground="0x00D5E8EE" Background="0x00D28B26" BoldFont="No"/>
               <Item Name="Definition Window Current Match" Foreground="0x00969483" Background="0x02000000" BoldFont="No"/>
@@ -81,10 +81,10 @@
               <Item Name="HTML Server-Side Script" Foreground="0x008236D3" Background="0x00423607" BoldFont="No"/>
               <Item Name="HTML Tag Delimiter" Foreground="0x00756E58" Background="0x02000000" BoldFont="No"/>
               <Item Name="Identifier" Foreground="0x00969483" Background="0x02000000" BoldFont="No"/>
-              <Item Name="Keyword" Foreground="0x00079A71" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Keyword" Foreground="0x00009985" Background="0x02000000" BoldFont="No"/>
               <Item Name="Memory Changed" Foreground="0x002F32DC" Background="0x02000000" BoldFont="No"/>
               <Item Name="Number" Foreground="0x0098A12A" Background="0x02000000" BoldFont="No"/>
-              <Item Name="Operator" Foreground="0x00079A71" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Operator" Foreground="0x00009985" Background="0x02000000" BoldFont="No"/>
               <Item Name="Other Error" Foreground="0x008236D3" Background="0x02000000" BoldFont="No"/>
               <Item Name="Preprocessor Keyword" Foreground="0x00164BCB" Background="0x02000000" BoldFont="No"/>
               <Item Name="Razor Code" Foreground="0x02000000" Background="0x00423607" BoldFont="No"/>
@@ -93,9 +93,9 @@
               <Item Name="Refactoring Dependent Field" Foreground="0x00D5E8EE" Background="0x02000000" BoldFont="No"/>
               <Item Name="Register Data Changed" Foreground="0x002F32DC" Background="0x02000000" BoldFont="No"/>
               <Item Name="Script Comment" Foreground="0x00756E58" Background="0x02000000" BoldFont="No"/>
-              <Item Name="Script Keyword" Foreground="0x00079A71" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Script Keyword" Foreground="0x00009985" Background="0x02000000" BoldFont="No"/>
               <Item Name="Script Number" Foreground="0x0098A12A" Background="0x02000000" BoldFont="No"/>
-              <Item Name="Script Operator" Foreground="0x00079A71" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Script Operator" Foreground="0x00009985" Background="0x02000000" BoldFont="No"/>
               <Item Name="Script String" Foreground="0x0098A12A" Background="0x02000000" BoldFont="No"/>
               <Item Name="Smart Tag" Foreground="0x00D28B26" Background="0x02000000" BoldFont="No"/>
               <Item Name="SQL DML Marker" Foreground="0x00D28B26" Background="0x02000000" BoldFont="No"/>
@@ -104,14 +104,14 @@
               <Item Name="String(C# @ Verbatim)" Foreground="0x0098A12A" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="Syntax Error" Foreground="0x002F32DC" Background="0x02000000" BoldFont="No"/>
               <Item Name="Task List Shortcut" Foreground="0x00362B00" Background="0x00D28B26" BoldFont="No"/>
-              <Item Name="Track Changes after save" Foreground="0x02000000" Background="0x00079A71" BoldFont="No"/>
+              <Item Name="Track Changes after save" Foreground="0x02000000" Background="0x00009985" BoldFont="No"/>
               <Item Name="Track Changes before save" Foreground="0x02000000" Background="0x000089B5" BoldFont="No"/>
               <Item Name="User Types" Foreground="0x000089B5" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="User Types(Delegates)" Foreground="0x00C4716C" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="User Types(Enums)" Foreground="0x000089B5" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="User Types(Interfaces)" Foreground="0x000089B5" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="User Types(Value types)" Foreground="0x000089B5" Background="0x02000000" BoldFont="Yes"/>
-              <Item Name="Warning" Foreground="0x00079A71" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Warning" Foreground="0x00009985" Background="0x02000000" BoldFont="No"/>
               <Item Name="Warning Lines Path" Foreground="0x00D28B26" Background="0x00423607" BoldFont="No"/>
               <Item Name="XAML Attribute" Foreground="0x00969483" Background="0x02000000" BoldFont="No"/>
               <Item Name="XAML Attribute Quotes" Foreground="0x00756E58" Background="0x02000000" BoldFont="No"/>
@@ -121,7 +121,7 @@
               <Item Name="XAML Delimiter" Foreground="0x008236D3" Background="0x02000000" BoldFont="No"/>
               <Item Name="XAML Keyword" Foreground="0x00D28B26" Background="0x02000000" BoldFont="No"/>
               <Item Name="XAML Markup Extension Class" Foreground="0x00164BCB" Background="0x02000000" BoldFont="No"/>
-              <Item Name="XAML Markup Extension Parameter Name" Foreground="0x00079A71" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XAML Markup Extension Parameter Name" Foreground="0x00009985" Background="0x02000000" BoldFont="No"/>
               <Item Name="XAML Markup Extension Parameter Value" Foreground="0x000089B5" Background="0x02000000" BoldFont="No"/>
               <Item Name="XAML Name" Foreground="0x00D28B26" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="XAML Processing Instruction" Foreground="0x00164BCB" Background="0x02000000" BoldFont="No"/>
@@ -146,14 +146,14 @@
               <Item Name="ReSharper Underlined Error Highlighting" Foreground="0x002F32DC" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Warning" Foreground="0x00164BCB" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Dead Code" Foreground="0x00756E58" Background="0x01000001" BoldFont="No"/>
-              <Item Name="ReSharper Suggestion" Foreground="0x00079A71" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Suggestion" Foreground="0x00009985" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Non-Private Unused Members" Foreground="0x00756E58" Background="0x01000001" BoldFont="No"/>
-              <Item Name="ReSharper Hint" Foreground="0x00079A71" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Hint" Foreground="0x00009985" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Todo Item" Foreground="0x00C4716C" Background="0x01000001" BoldFont="Yes"/>
               <Item Name="ReSharper Todo Item Marker on Error Stripe" Foreground="0x00C4716C" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Code Analysis Error Marker on Error Stripe" Foreground="0x002F32DC" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Code Analysis Warning Marker on Error Stripe" Foreground="0x000089B5" Background="0x01000001" BoldFont="No"/>
-              <Item Name="ReSharper Code Analysis Suggestion Marker on Error Stripe" Foreground="0x00079A71" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Code Analysis Suggestion Marker on Error Stripe" Foreground="0x00009985" Background="0x01000001" BoldFont="No"/>
               <!-- String parameters that specify MVC actions/areas/controllers/views are underlined using these colors -->
               <Item Name="ReSharper ASP.NET MVC Action" Foreground="0x00C4716C" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper ASP.NET MVC Area" Foreground="0x00C4716C" Background="0x01000001" BoldFont="No"/>
@@ -180,7 +180,7 @@
               <Item Name="ReSharper Unmatched Brace" Foreground="0x02000000" Background="0x002F32DC" BoldFont="No"/>
               <!-- Used when "Highlight with outline" is set in Settings | Environment | Editor | Braces and Parentheses -->
               <Item Name="ReSharper Brace Outline" Foreground="0x00756E58" Background="0x01000001" BoldFont="No"/>
-              <Item Name="ReSharper Rearrange Left/Right Code Hint" Foreground="0x00079A71" Background="0x0078F9FC" BoldFont="No"/>
+              <Item Name="ReSharper Rearrange Left/Right Code Hint" Foreground="0x00009985" Background="0x0078F9FC" BoldFont="No"/>
 <!--              <Item Name="ReSharper Rearrange Up/Down Code Hint" Foreground="0x02000000" Background="0x00F3DBB1" BoldFont="No"/>-->
               <Item Name="ReSharper Hyperlink" Foreground="0x00D28B26" Background="0x01000001" BoldFont="No"/>
 <!--              <Item Name="ReSharper Name or Signature Changed" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
@@ -196,18 +196,18 @@
               <Item Name="ReSharper Parameter Identifier" Foreground="0x02000000" Background="0x01000001" BoldFont="Yes"/>
               <Item Name="ReSharper Late Bound Identifier" Foreground="0x0098A12A" Background="0x01000001" BoldFont="No"/>
 <!--              <Item Name="ReSharper Path Identifier" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
-              <Item Name="ReSharper Format String Item" Foreground="0x00079A71" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Format String Item" Foreground="0x00009985" Background="0x01000001" BoldFont="No"/>
               <!-- This color is used to highlight the variable/format string pair when the cursor is on one of them. -->
               <Item Name="ReSharper Matched Format String Item" Foreground="0x02000000" Background="0x00423607" BoldFont="Yes"/>
 <!--              <Item Name="ReSharper LiveTemplates Current HotSpot" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
 <!--              <Item Name="ReSharper LiveTemplates Current HotSpot mirror" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
 <!--              <Item Name="ReSharper LiveTemplates Inactive HotSpot" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
               <Item Name="ReSharper Template Editor Template Keyword" Foreground="0x000089B5" Background="0x01000001" BoldFont="No"/>
-              <Item Name="ReSharper Template Editor C# Keyword" Foreground="0x00079A71" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Template Editor C# Keyword" Foreground="0x00009985" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Template Editor C# Preprocessor Directive" Foreground="0x00164BCB" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Template Editor C# Comment" Foreground="0x00756E58" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Template Editor JavaScript Comment" Foreground="0x00756E58" Background="0x01000001" BoldFont="No"/>
-              <Item Name="ReSharper Template Editor JavaScript Keyword" Foreground="0x00079A71" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper Template Editor JavaScript Keyword" Foreground="0x00009985" Background="0x01000001" BoldFont="No"/>
 <!--              <Item Name="ReSharper Template Editor HTML Tag" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
 <!--              <Item Name="ReSharper Template Editor HTML Attribute" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
               <Item Name="ReSharper Template Editor CSS Keyword" Foreground="0x00164BCB" Background="0x01000001" BoldFont="No"/>
@@ -257,3 +257,4 @@
     </Category>
   </Category>
 </UserSettings>
+
