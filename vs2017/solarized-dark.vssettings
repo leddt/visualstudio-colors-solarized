@@ -233,6 +233,10 @@
               <Item Name="ReSharper Delegate Identifier" Foreground="0x00C4716C" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Type Parameter Identifier" Foreground="0x008236D3" Background="0x01000001" BoldFont="No"/>
 <!--              <Item Name="ReSharper Current Line Highlight" Foreground="0x02000000" Background="0x00E0FFFF" BoldFont="No"/>-->
+              <Item Name="VA Class" Foreground="0x000089B5" Background="0x01000001" BoldFont="No"/>
+              <Item Name="VA Variable" Foreground="0x00969483" Background="0x01000001" BoldFont="No"/>
+              <Item Name="VA Method" Foreground="0x00A1A193" Background="0x01000001" BoldFont="Yes"/>
+              <Item Name="VA Macro / Enum" Foreground="0x000089B5" Background="0x01000001" BoldFont="No"/>
             </Items>
           </Category>
           <Category GUID="{75A05685-00A8-4DED-BAE5-E7A50BFA929A}" FontIsDefault="Yes">
