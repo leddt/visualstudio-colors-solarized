@@ -88,7 +88,7 @@
               <Item Name="Other Error" Foreground="0x008236D3" Background="0x02000000" BoldFont="No"/>
               <Item Name="Preprocessor Keyword" Foreground="0x00164BCB" Background="0x02000000" BoldFont="No"/>
               <Item Name="punctuation" Foreground="0x00837B65" Background="0x02000000" BoldFont="No"/>
-              <Item Name="Razor Code" Foreground="0x02000000" Background="0x00D5E8EE" BoldFont="No"/>
+              <Item Name="RazorCode" Foreground="0x02000000" Background="0x00D5E8EE" BoldFont="No"/>
               <Item Name="Refactoring Background" Foreground="0x01000002" Background="0x00362B00" BoldFont="No"/>
               <Item Name="Refactoring Current Field" Foreground="0x01000000" Background="0x00423607" BoldFont="No"/>
               <Item Name="Refactoring Dependent Field" Foreground="0x00423607" Background="0x02000000" BoldFont="No"/>
